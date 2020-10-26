@@ -1,0 +1,30 @@
+body {
+  padding: 15px;
+  font-family: monospace, serif;
+  background-color: #faf9f9;
+}
+
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  padding: 2px;
+}
+
+input {
+  width: 3rem;
+}
+
+input[type='range'] {
+  width: 15rem;
+}
+
+.empty {
+  empty-cells: show;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho Prático 01</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>(R) Vermelho:</td>
+        <td>
+          <input
+            type="range"
+            id="r_red"
+            name="points"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+        </td>
+        <td><input id="e_red" value="0" class="edit" disabled /></td>
+      </tr>
+      <tr>
+        <td>(G) Verde:</td>
+        <td>
+          <input
+            type="range"
+            id="r_green"
+            name="points"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+        </td>
+        <td><input id="e_green" value="0" class="edit" disabled /></td>
+      </tr>
+      <tr>
+        <td>(B) Azul:</td>
+        <td>
+          <input
+            type="range"
+            id="r_blue"
+            name="points"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+        </td>
+        <td><input id="e_blue" value="0" class="edit" disabled /></td>
+      </tr>
+      <tr>
+        <td class="empty"></td>
+        <td colspan="2">
+          <div class="square"></div>
+        </td>
+      </tr>
+    </table>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
